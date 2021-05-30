@@ -1,0 +1,11 @@
+try {
+   db.Products.insertMany( 
+   [
+	  { "Name": "Asus laptop", "Category": "Computers", "Summary": "Summary", "Description": "Description", "Image File": "ImageFile", "Price": 54.93 },
+	  { "Name": "Acer laptop", "Category": "Computers", "Summary": "Summary", "Description": "Description", "Image File": "ImageFile", "Price": 77.11 },
+	  { "Name": "HP laptop", "Category": "Computers", "Summary": "Summary", "Description": "Description", "Image File": "ImageFile", "Price": 48.47 },
+	  { "Name": "Lenovo laptop", "Category": "Computers", "Summary": "Summary", "Description": "Description", "Image File": "ImageFile", "Price": 99.99 }
+   ]);
+} catch (e) {
+   print (e);
+}
