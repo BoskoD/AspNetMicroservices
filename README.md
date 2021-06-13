@@ -10,6 +10,7 @@ Tech stack used
 - API Gateway
 - MongoDB
 - Redis
+- Repository Pattern
 - SqlServer
 - Azure Functions
 
