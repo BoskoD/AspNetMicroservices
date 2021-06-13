@@ -12,6 +12,8 @@ Tech stack used
 - Redis
 - Repository Pattern
 - N-Layer architecture
+- Clean architecture
+- CQRS implementation
 - SqlServer
 - Azure Functions
 
