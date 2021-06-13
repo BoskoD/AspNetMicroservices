@@ -11,6 +11,7 @@ Tech stack used
 - MongoDB
 - Redis
 - Repository Pattern
+- N-Layer architecture
 - SqlServer
 - Azure Functions
 
