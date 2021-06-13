@@ -10,6 +10,10 @@ Tech stack used
 - API Gateway
 - MongoDB
 - Redis
+- Repository Pattern
+- N-Layer architecture
+- Clean architecture
+- CQRS implementation
 - SqlServer
 - Azure Functions
 
