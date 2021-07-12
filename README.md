@@ -5,6 +5,7 @@ Building Microservices on .Net, break it down into Nanoservices using Azure func
 Tech stack used 
 - Asp.Net Web API 
 - Docker 
+- Portainer
 - RabbitMQ 
 - Ocelot 
 - API Gateway
