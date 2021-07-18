@@ -17,7 +17,7 @@ Tech stack used
 - CQRS implementation
 - SqlServer
 - Azure Functions
-- Dapper
+- Micro ORM (Dapper)
 - gRPC
 
 
