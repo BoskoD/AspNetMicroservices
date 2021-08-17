@@ -30,10 +30,10 @@ namespace Catalog.API.Controllers
             return Ok(products);
         }
 
-        [HttpGet("id:length(24)", Name = "GetProduct")]
+        [HttpGet("{id:length(24)}", Name = "GetProduct")]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
         [ProducesResponseType(typeof(IEnumerable<Product>), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<IEnumerable<Product>>> GetProduct(string id)
+        public async Task<ActionResult<IEnumerable<Product>>> GetProductById(string id)
         {
             var product = await _repository.GetProduct(id);
             if (product == null)
