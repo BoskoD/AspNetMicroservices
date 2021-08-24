@@ -11,6 +11,7 @@ Tech stack used
 - API Gateway
 - MongoDB
 - Redis
+- PostgreSQL
 - Repository Pattern
 - N-Layer architecture
 - Clean architecture
