@@ -20,6 +20,7 @@ Tech stack used
 - Azure Functions
 - Micro ORM (Dapper)
 - gRPC
+- Interservice communication
 
 
 Documentation
