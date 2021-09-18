@@ -3,7 +3,7 @@
 Building Microservices on .Net, break it down into Nanoservices using Azure functions
 
 Tech stack used 
-- Asp.Net Web API 
+- Asp.Net Web API         
 - Docker 
 - Portainer
 - RabbitMQ 
@@ -13,6 +13,7 @@ Tech stack used
 - Redis
 - PostgreSQL
 - Repository Pattern
+- MediatR
 - N-Layer architecture
 - Clean architecture
 - CQRS implementation
