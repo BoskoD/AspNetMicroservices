@@ -16,6 +16,8 @@ Tech stack used
 - N-Layer architecture
 - Clean architecture
 - CQRS implementation
+- Domain Driven Design
+- SOLID
 - SqlServer
 - Azure Functions
 - Micro ORM (Dapper)
