@@ -21,6 +21,7 @@ Tech stack used
 - SOLID
 - Clean Architecture
 - Fluent Validation
+- Exception handling
 - SqlServer
 - EF Core
 - SendGrid
