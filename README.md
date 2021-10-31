@@ -19,6 +19,7 @@ Tech stack used
 - CQRS implementation
 - Domain Driven Design
 - SOLID
+- Fluent Validation
 - SqlServer
 - Azure Functions
 - Micro ORM (Dapper)
