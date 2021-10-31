@@ -19,6 +19,7 @@ Tech stack used
 - CQRS implementation
 - Domain Driven Design
 - SOLID
+- Clean Architecture
 - Fluent Validation
 - SqlServer
 - EF Core
