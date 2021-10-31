@@ -21,6 +21,7 @@ Tech stack used
 - SOLID
 - Fluent Validation
 - SqlServer
+- EF Core
 - SendGrid
 - Azure Functions
 - Micro ORM (Dapper)
