@@ -6,7 +6,7 @@ using Ordering.Application.Behaviours;
 
 namespace Ordering.Application
 {
-    public static class ApplicationServiceRegistration
+    public static class ApplicationServiceRegistrations
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
