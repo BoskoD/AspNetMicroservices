@@ -31,12 +31,14 @@ Tech stack used
 - Interservice communication
 
 
-Documentation
-<p> https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/n-tier </p>
-<p> https://auth0.com/blog/implementing-nanoservices-in-aspnet-core/</p>
-<p> https://documentation.portainer.io/quickstart/</p>
-<p> https://www.microsoft.com/en-us/sql-server/ </p>
-<p> https://www.postgresql.org/</p>
-<p> https://www.mongodb.com/ </p>
-<p> https://www.rabbitmq.com/</p>
-<p> https://redis.io/</p>
+### Documentation
+*	N-Tier:	         https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/n-tier
+*	Nanoservices:	   https://auth0.com/blog/implementing-nanoservices-in-aspnet-core
+*	Portainer:	     https://documentation.portainer.io/quickstart
+*	SQLServer:	     https://www.microsoft.com/en-us/sql-server/
+*	PostgreSQL:	     https://www.postgresql.org/
+*	MongoDb          https://www.mongodb.com/
+*	RabbitMQ:        https://www.rabbitmq.com/
+*	Redis:           https://redis.io   
+*	SendGrid:	       https://sendgrid.com/
+*	Docker:          https://www.docker.com/
