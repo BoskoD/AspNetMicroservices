@@ -1,4 +1,4 @@
-# AspNetMicroservices to Nanoservices
+# .Net6 Microservices to Nanoservices
 
 Building Microservices on .Net, break it down into Nanoservices using Azure functions
 
