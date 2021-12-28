@@ -27,21 +27,30 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
 
+  orderdb:
+    container_name: orderdb
+    environment:
+        SA_PASSWORD: "Barjunkey1991"
+        ACCEPT_EULA: "Y"
+    restart: always
+    ports:
+        - "1434:1433"
+
   portainer:
     container_name: portainer
     restart: always
     ports:
       - "8080:8000"
       - "9000:9000"
-    volumes:
+    volumes: # barjunkey@gmail.com | Barjunkey1991
       - /var/run/docker.sock:/var/run/docker.sock
       - portainer_data:/data
 
   pgadmin:
     container_name: pgadmin
     environment: 
-      - PGADMIN_DEFAULT_EMAIL=admin@antplat365.com
-      - PGADMIN_DEFAULT_PASSWORD=admin1234
+      - PGADMIN_DEFAULT_EMAIL=barjunkey@gmail.com
+      - PGADMIN_DEFAULT_PASSWORD=Barjunkey1991
     restart: always
     ports:
       - "5050:80"
@@ -78,7 +87,6 @@ services:
       - discountdb
     ports:
       - "8002:80"
-
 
   discount.grpc:
     container_name: discount.grpc
