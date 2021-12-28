@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Ordering.Infrastructure.Persistance;
 using System;
 
 namespace Ordering.API.Extensions
@@ -23,17 +24,17 @@ namespace Ordering.API.Extensions
 
                 try
                 {
-                    logger.LogInformation("Migrating SQL server database associated with context {DbContextName}", context.Database);
+                    logger.LogInformation("Migrating SQL server database associated with context {DbContextName}", typeof(OrderContext).Name);
 
                     InvokeSeeder(seeder, context, services);
 
-                    logger.LogInformation("Migration completed for SQL server database associated with context {DbContextName}", context.Database);
+                    logger.LogInformation("Migration completed for SQL server database associated with context {DbContextName}", typeof(OrderContext).Name);
 
 
                 }
                 catch (SqlException ex)
                 {
-                    logger.LogError("An error occured while migrating the sql server database", ex);
+                    logger.LogError("An error occured while migrating the sql server database", ex.Message);
 
                     if (retryForAvailability < 50)
                     {
