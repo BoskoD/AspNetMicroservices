@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{FA8FF016-C9C4-447A-B986-F721407329E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Messages", "Shared\EventBus.Messages\EventBus.Messages.csproj", "{001BBEB2-D161-4B87-B1A5-B301BF8D0BDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Messages", "Shared\EventBus.Messages\EventBus.Messages.csproj", "{001BBEB2-D161-4B87-B1A5-B301BF8D0BDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
